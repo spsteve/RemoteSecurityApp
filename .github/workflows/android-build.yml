@@ -38,7 +38,7 @@ jobs:
       run: ./gradlew assembleDebug
 
     - name: Upload APK artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@3f41a0b12a328d69db469da989b25031c33b9e7f
       with:
         name: RemoteSecurityApp-APK
         path: app/build/outputs/apk/debug/app-debug.apk
